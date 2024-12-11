@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 375px) and (max-width: 768px){
+@media (min-width: 300px) and (max-width: 768px){
     #fondoNuevo{
         background-image: url(fondo/fondo3.jpg);
         background-size: cover;
@@ -27,12 +27,13 @@
         
     }
     #margenVideo{
-        margin-top: 250px;
+        margin-top: 150px;
+        
     }
     
     
     .video{
-        width: 350px;
+        width: 250px;
         
     }
 
@@ -89,8 +90,8 @@ main{
 }
 
 .tituloVideo{
+    color: rgb(230, 141, 9);
     margin-top: 10px;
-    text-decoration:underline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -112,7 +113,7 @@ main{
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .listaNenas{
