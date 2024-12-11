@@ -1,0 +1,5 @@
+const imagenes = [{
+    "urlImg1": "fotos/foto1.jpg",
+    "urlImg2": "fotos/foto2.jpg",
+  },
+]
